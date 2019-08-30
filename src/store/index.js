@@ -11,5 +11,5 @@ export default new Vuex.Store({
     modules: {
         players
     },
-    strict: true,
+    strict: false,
 });

@@ -1,6 +1,8 @@
 import axios from 'axios';
+import conf from './conf'
 export default () => {
     return axios.create({
-        baseURL: 'https://deckofcardsapi.com/api/',
+        baseURL: conf.baseUrl,
     });
 };
+

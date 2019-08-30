@@ -11,6 +11,9 @@ export default {
     deck_id: null,
     warzone: {
         player_1: [],
-        player_2: []
+        player_2: [],
+        cards: [],
+        last_push: null,
+        before_push: null
     }
 };
